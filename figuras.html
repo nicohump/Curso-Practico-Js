@@ -7,9 +7,87 @@
     <title>Figuras Geometricas</title>
 </head>
 <body>
-    <h1>
-        Figuras Geometricas
-    </h1>
+    <header>
+        <h1>
+            Figuras Geometricas
+        </h1> 
+    </header>
+    <section>
+        <h2>Calculo del area y perimetro de un cuadrado</h2>
+        <form action="">
+            <label for="inputCuad">
+               Lado del cuadrado en cm     
+            </label>
+            <input id="inputCuad" type="number"> 
+
+            <button type="button" onclick="calcularPerCuad()">
+                Perimetro
+            </button>    
+            <button type="button" onclick="calcularAreaCuad()">
+                Area
+            </button>  
+            <input id="outputCuad" />
+            
+        </form>
+    </section>
+
+    <section>
+        <h2>Calculo del area y perimetro de un triangulo</h2>
+        <form action="">
+            <label for="base">
+                Base del triangulo en cm     
+            </label>
+            <input id="base" type="number">
+
+            <label for="lado2">
+                Lado 1 del triangulo en cm     
+            </label>
+            <input id="lado2" type="number"> 
+
+            <label for="lado3">
+                Lado 3 del triangulo en cm     
+            </label>
+            <input id="lado3" type="number"> 
+
+
+            <label for="altura">
+                Altura del triangulo en cm     
+            </label>
+            <input id="altura" type="number"> 
+
+
+            <button type="button" onclick="calcularPerTri()">
+                Perimetro
+            </button>    
+            <button type="button" onclick="calcularAreaTri()">
+                Area
+            </button>  
+
+            <input id="outputTri" />
+
+        </form>    
+    </section>
+
+    <section>
+        <h2>Calculo del area y perimetro de un circulo</h2>
+        <form action="">
+            <label for="radio">
+               Radio del circulo en cm     
+            </label>
+            <input id="radio" type="number"> 
+
+            <button type="button" onclick="calcularPerCir()">
+                Perimetro
+            </button>    
+            <button type="button" onclick="calcularAreaCir()">
+                Area
+            </button>  
+
+            <input id="outputCir" />
+        </form>
+    </section>
+
+
     <script src="./figuras.js"></script>
 </body>
 </html>
