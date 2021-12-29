@@ -1,64 +1,38 @@
 
 // Codigo del cuadrado
 
-console.group("Cuadrado");
+function perimetroCuad (lado){
 
-const  squareSide = 5;
-console.log("Los lados del cuadrado miden " + squareSide);
+    return lado * 4;
+}
 
-const perimetroCuad = squareSide * 4;
+function areaCuad (lado){
 
-console.log ("El perimetro del cuadrado es: " + perimetroCuad + " cm");
-
-const areaCuad = squareSide * squareSide;
-
-console.log ("El area del cuadrado es: " + areaCuad + " cm2");
-
-console.groupEnd();
+    return lado * lado; 
+}
 
 // Codigo del triangulo
 
-console.group("Triangulo");
+function perimetroTrian (lado1, lado2, lado3){
 
-const triangleBase = 4;
-const triangSide = 6;
-const triangleHeigth = 5; 
+    return lado1 + lado2 + lado3;
+}
 
-console.log("La base del triangulo mide " 
-+ triangleBase 
-+ " cm" 
-+ " y los lados opuestos miden " 
-+ triangSide 
-+ " cm"
-);
+function areaTrian (base, altura){
 
-const perimetroTrian = triangSide * 2 + triangleBase;
-
-console.log ("El perimetro del cuadrado es: " + perimetroTrian + " cm");
-
-const areaTrian = (triangleBase * triangleHeigth) / 2;
-
-console.log ("El area del triangulo es: " + areaTrian + " cm2");
-
-console.groupEnd();
+    return (base + altura) / 2;
+}
 
 //Codigo del circulo
 
-console.group("Circulo");
+function perimetroCirc (radio){
+    const PI = Math.PI;
+    return PI * (radio * 2);
+}
 
-const radioCirc = 4;
+function areaCirc (radio){
+    const PI = Math.PI;
+    return PI * (radio * radio);
 
-const PI = Math.PI;
-
-const circunsferencia = PI * (radioCirc * 2);
-
-console.log ("La circunsferencia del circulo mide " + circunsferencia + " cm");
-
-const areaCirc = PI * (radioCirc * radioCirc);
-
-console.log ("El area del circulo es " + areaCirc + " cm");
-
-console.groupEnd();
-
-
+}
 
