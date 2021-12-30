@@ -1,0 +1,140 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container{
+    width: 100%;
+    margin: 16px;
+    height: 700px;
+    background: linear-gradient(90deg, rgba(45,42,93,0.865983893557423) 0%, rgba(44,44,70,0.5550595238095238) 33%);
+}
+
+header{
+      font-size: 18px;   
+      text-align: center;
+      padding: 8px;
+      color: rgba(99, 101, 102, 0.884);     
+}
+
+/*Implementacion css Cuadrado*/
+
+.secCuadrado{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    width: 400px;
+    border: solid 4px rgba(255, 255, 255, 0.521) ;
+    margin-bottom: 4px;
+    
+}
+
+.secCuadrado h2{
+    font-size: 14px;
+    text-align: center;
+}
+
+.secCuadrado .label{
+    margin: 4px;
+    font-size: 12px;   
+}
+
+.secCuadrado .in input{
+    margin-top: 4px;
+    
+}
+
+.secCuadrado .boton button{
+    margin-top: 4px;
+    border-radius: 15%;
+    color: rgba(2, 2, 2, 0.918);
+    background: none;
+}
+
+.secCuadrado .output{
+    margin: 4px 0 8px 0;
+}
+
+/*Implementacion css Triangulo*/
+
+.secTriangulo{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    width: 400px;
+    border: solid 4px rgba(255, 255, 255, 0.521) ;
+    margin-bottom: 4px;
+
+    
+}
+
+.secTriangulo h2{
+    font-size: 14px;
+    text-align: center;
+}
+
+.secTriangulo label{
+    margin: 4px;
+    font-size: 12px;   
+}
+
+.secTriangulo div input{
+    margin-top: 4px;
+    
+}
+
+.secTriangulo button{
+    margin-top: 4px;
+    border-radius: 15%;
+    color: rgba(2, 2, 2, 0.918);
+    background: none;
+}
+
+.secTriangulo .outputTri{
+    margin: 4px 0 8px 0;
+}
+
+/*Implementacion css Circulo*/
+
+.secCirculo{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    width: 400px;
+    border: solid 4px rgba(255, 255, 255, 0.521) ;
+    margin-bottom: 4px;
+    
+}
+
+.secCirculo h2{
+    font-size: 14px;
+    text-align: center;
+}
+
+.secCirculo label{
+    margin: 4px;
+    font-size: 12px;   
+}
+
+.secCirculo input{
+    margin-top: 4px;
+    
+}
+
+.secCirculo button{
+    margin-top: 4px;
+    border-radius: 15%;
+    color: rgba(2, 2, 2, 0.918);
+    background: none;
+}
+
+.secCirculo .outputCir{
+    margin: 4px 0 8px 0;
+}
+
+
