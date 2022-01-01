@@ -7,3 +7,10 @@ Curso practico de Javascript de Platzi
 - Implementar las formulas en js
 - Crear funciones para abstraer la implementacion
 - Integrar js con HTML
+
+## Taller 2: PORCENTAJES Y DESCUENTOS
+
+- Definir las formulas.
+- Implementar las formulas en js
+- Crear funciones
+- Integrar js con HTML
