@@ -14,3 +14,10 @@ Curso practico de Javascript de Platzi
 - Implementar las formulas en js
 - Crear funciones
 - Integrar js con HTML
+
+## Taller 3: PROMEDIO, MEDIANA Y MODA
+
+- Definir las formulas.
+- Implementar las formulas en js
+- Crear funciones
+- Integrar js con HTML
