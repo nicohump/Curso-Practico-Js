@@ -4,34 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Descuento.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+
     <title>Promociones y Descuentos</title>
 </head>
 <body>
-
-    <h1>
-        PORCENTAJES Y DESCUENTOS
-    </h1>
-
-    <h2>Segundo taller del curso Practico de JS</h2>
-
     <div class="container">
-        <div>
-            <label for="precioOriginal">
-                Precio Original
-            </label>
-            <input id="precioOriginal" type="number">
+        <div class="header">
+            <img src="./4098088.png" alt="">
+            <h1>
+                 PORCENTAJES Y DESCUENTOS
+            </h1>
+           
         </div>
-        <div>
-            <label for="descuentoAplicado">
-                Descuento a aplicar
-            </label>
-            <input id="descuentoAplicado" type="number">
-        </div>
-        <button type = "button" onclick="Discount()">Calcular Descuento</button>
-        <div>
-            <p id="precioFinal"></p>
-        </div>
+        <h2>Segundo taller del curso Practico de JS</h2>
 
+        <div class="secondContainer">    
+            <div class="block1">
+                <label for="precioOriginal">
+                    Precio Original
+                </label>
+                <input id="precioOriginal" type="number">
+            </div>
+            <div class="block2">
+                <label for="descuentoAplicado">
+                    Descuento
+                </label>
+                <input id="descuentoAplicado" type="number">
+            </div>
+            <div class="block3">
+                <p id="precioFinal"></p>
+            </div>
+            <button id="buttonDiscount" type = "button" onclick="Discount()">Calcular Descuento</button>
+       
+        </div>    
     </div>
 
     <script src="Descuento.js"></script>

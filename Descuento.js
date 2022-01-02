@@ -8,7 +8,7 @@ function Discount (){
 
     precioFinal = (precioOrigin * (100 - descuentoAplic)) / 100;
 
-    document.getElementById("precioFinal").innerText = `El precio final es: ${precioFinal}`;
+    document.getElementById("precioFinal").innerText = `El precio final es: $ ${precioFinal} `;
 
 
 }

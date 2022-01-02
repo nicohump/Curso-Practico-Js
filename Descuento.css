@@ -1,0 +1,92 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgba(66, 63, 63, 0.096);
+}
+
+.container{
+    display: grid;
+    grid-template-rows: auto;
+    place-items: center;
+    align-content: center;
+    width: auto;
+    height: 500 px;
+}
+
+.secondContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid 2px rgba(56, 55, 55, 0.425);
+    border-radius: 2%;
+    height: 180px;
+    width: 200px;
+    margin-top: 20px;
+    padding: 0 4px 0 4px;
+
+    
+}
+
+.container .header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.container .header img{
+    width: 30px;
+    height: 30px;
+}
+
+.container .header h1{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.container h2{
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+.secondContainer .block1{
+    display: flex;   
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 8px 1px 8px 1px;
+    font-size: 8px;
+}
+
+.secondContainer .block2{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 8px 1px 8px 1px;
+    font-size: 8px;
+}
+
+#buttonDiscount{
+    width: 120px;
+    height: 30px;
+    align-self: center;
+    margin: 8px 1px 8px 1px;
+    background-color: none;
+    border: solid 2px gray;
+    border-radius: 5%;
+    font-weight: bolder;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.secondContainer .block3 {
+    align-self: center;
+    margin: 8px 1px 8px 1px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+   
+
+
